@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Movie</title>
+</head>
+<body>
+    <h1>What's one of your favorite movies?</h1>
+    <form action="/movies" method="POST">
+        <label>Name: </label>
+        <input type="text" name="name" />
+        <label>Description: </label>
+        <input type="text" name="description"/>
+        <button type="submit">Add Movie</button>
+    </form>
+    <a href="/movies">Favorite Movies</a>
+</body>
+</html>
