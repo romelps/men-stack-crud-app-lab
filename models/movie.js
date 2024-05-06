@@ -6,5 +6,5 @@ const movieSchema = new mongoose.Schema({
   image: String,
 })
 
-const Movie = mongoose.model('Movie', movieSchema)
-module.exports = Movie
+const Movie = mongoose.model('Movie', movieSchema);
+module.exports = Movie;

@@ -38,7 +38,7 @@ app.delete('/movies/:movieId', async (req, res) => {
 
 //index(list of movies)
 app.get('/movies', async (req, res) => {
-  const allMovies = await Movie.find();
+  const allMovies = await Movie.find({});
   res.render('movies/index.ejs', {
     movies: allMovies
   })
